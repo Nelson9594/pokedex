@@ -1,7 +1,31 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\thede\Desktop\Pokedex\src\main\scala\com\pokemon\Pokedex.scala:21:23 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m        [33mval[0m [36mresponse[0m = client.newCall(request).execute[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                       Not found: client[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E002] Syntax Warning: /Users/nelson/Documents/workspace/scala/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:35:6 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m35 |[0m      [33mtry[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m      ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m      A [33mtry[0m without [33mcatch[0m or [33mfinally[0m is equivalent to putting[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m      its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m36 |[0m        [33mval[0m [36mgen[0m : [35mString[0m = versions.asJsObject.getFields([31m"generation-"[0m+romanNumerals(currentNumber)).head.toString[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m        [33mif[0m(gen != [31m""[0m && gen != [31mnull[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m38 |[0m          [33mthis[0m.generation = currentNumber + [31m1[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m39 |[0m        currentNumber += [31m1[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/nelson/Documents/workspace/scala/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:47:60 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m47 |[0m    [33mimplicit[0m [33mval[0m [36mstatFormat[0m: [35mJsonFormat[0m[[35mStat[0m] = jsonFormat2(Stat)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                            ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe method `apply` is inserted. The auto insertion will be deprecated, please write `com.pokemon.Stat.apply` explicitly.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/nelson/Documents/workspace/scala/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:67:60 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m67 |[0m    [33mimplicit[0m [33mval[0m [36mtypeFormat[0m: [35mJsonFormat[0m[[35mType[0m] = jsonFormat2(Type)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                            ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe method `apply` is inserted. The auto insertion will be deprecated, please write `com.pokemon.Type.apply` explicitly.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E002] Syntax Warning: /Users/nelson/Documents/workspace/scala/Pokedex/src/main/scala/com/requests/ClientApi.scala:10:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m10 |[0m    [33mtry[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    A [33mtry[0m without [33mcatch[0m or [33mfinally[0m is equivalent to putting[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m11 |[0m      [33mval[0m [36mresponse[0m = client.newCall(request).execute[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m12 |[0m      [33mtry[0m response.body.string[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m13 |[0m      [33mfinally[0m [33mif[0m (response != [31mnull[0m) response.close()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m14 |[0m    }[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
