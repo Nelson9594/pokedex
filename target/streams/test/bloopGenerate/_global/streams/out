@@ -1,0 +1,4 @@
+[debug] [pokedex-test] Classpath dependencies List()
+[debug] [pokedex-test] Dependencies from configurations List(pokedex)
+[debug] Bloop wrote the configuration of project 'pokedex-test' to '/Users/nelson/Documents/workspace/scala/Pokedex/.bloop/pokedex-test.json'
+[success] Generated .bloop/pokedex-test.json

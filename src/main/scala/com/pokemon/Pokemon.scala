@@ -7,6 +7,7 @@ import com.pokemon.Stat
 import com.pokemon.Type
 import com.env.Env.*
 
+
 class Pokemon(name: String, jsonSource: String):
   var type1: String = _
   var type2: String = _
