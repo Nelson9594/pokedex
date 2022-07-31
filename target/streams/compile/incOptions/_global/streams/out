@@ -1,2 +1,31 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/nelson/Documents/workspace/scala/Pokedex/target/scala-3.1.3/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokedex.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Env.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokemon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Env$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Stat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientApi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokedex$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Request$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientApi$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Type.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Stat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Type$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Request.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokedex.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Env.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokemon.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Env$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Stat.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientApi.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pokedex$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Request$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientApi$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Type.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Stat$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Type$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Request.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/nelson/Documents/workspace/scala/Pokedex/target/scala-3.1.3/classes.bak[0m
